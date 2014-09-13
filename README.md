@@ -17,6 +17,6 @@ A list of languages, and status, I will attempt to port LoL source code, most li
 - Clojure
 - Rust
 
-Ok, so I can already use the source for Clisp. The Clisp project will be folder for writing the first tests for the let-over-lambda.lisp codebase...hopefully I can use some the example source code in the book as unit tests.
+Ok, so I can already use the source for Clisp. clisp/ will then only be a folder of tests for the let-over-lambda.lisp codebase...hopefully I can use some example source code in the book as unit tests.
 
 
