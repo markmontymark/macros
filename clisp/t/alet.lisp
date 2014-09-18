@@ -21,8 +21,11 @@
 
 	 (aletter 'invert)
 	 (lisp-unit:assert-equal (aletter 5) 22)
-
-)
+	 (lisp-unit:assert-equal (aletter 3) 25)
+	 
+	 (aletter 'invert)
+	 (lisp-unit:assert-equal (aletter 4) 21)
+	 (lisp-unit:assert-equal (aletter 8) 13))
 
 
 (lisp-unit:write-tap (lisp-unit:run-tests :all))

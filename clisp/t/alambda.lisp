@@ -4,7 +4,7 @@
 
  ; Factorial function defined recursively where `self' refers to the alambda function
 	 (let 
-		((n 10)
+		((n 10) ;; this n is just to test variable capture at bottom of test file
 		 (factorial (alambda (n) 
 								(if (= n 0)
 									1 
